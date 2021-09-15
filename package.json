@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/abuaesh/KrakenChallenge#readme",
   "scripts": {
-    "build": ""
+    "build": "",
+    "start": "ts-node app.ts"
   },
   "dependencies": {
     "@babel/cli": "^7.0.0-beta.46",
@@ -38,9 +39,17 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "bitcoin-address-validation": "^1.0.2",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "mongodb": "^3.6.0",
+    "mongodb": "^3.7.0",
+    "pg": "^8.7.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
     "wallet-address-validator": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^4.0.7",
+    "@types/node": "^16.9.1"
   }
 }
